@@ -25,63 +25,50 @@
 	  color: rgb(190, 210, 230);
 	  text-decoration: strike-through;
 	}
-
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	div {
+	  background-color: rgba(40, 100, 100, 0.85); 
+	  color: rgb (240, 240, 235); 
+	  font-family: Garamond, Georgia, serif;
+	}
 	div.nav {
-	  background-color: rgba(40, 100, 100, 0.75); 
 	  margin: 75px 0px 50px 0px; 
 	  padding: 5px;
-	  color: rgb (240, 240, 235); 
 	  text-align: center;
 	  text-transform: uppercase;
 	  font-size: 1.05em;
 	  letter-spacing: 15px;
 	  word-spacing: -10px;
 	}
-	table {
-	  background-color: rgba(40, 100, 100, 0.85);
-	  border-collapse: collapse;
-	  border: none;
-	  width: 800px;
-	  margin: auto;
-	}
-	th, tr, td {
-	  padding: 25px;
-	}
-	th {
-	  text-transform: capitalize;
-	  font-size: 1.5em;
-	  font-family: "Garamond", serif;
-	  color: rgb(240, 240, 235); 
-	  padding-bottom: 0px;
-	}
-	tr, td {
-	  font-size: 0.90;
-	  font-family: "Garamond", serif;
-	  line-height: 1.5;
+	div.feat {
+	  width: 700px; 
+	  margin: auto; 	
+	  padding: 25px 50px 25px 50px; 
+	  font-size: 1.2em; 
+	  line-height: 1.2; 
 	}
 	div.blurb {
 	  width: 600px;
 	  margin: auto;
-	  padding-right: 100px;
-	  padding-left: 100px;
-	  padding-top: 25px;
-	  padding-bottom: 25px;
+	  padding: 25px 100px 25px 100px;
 	  margin-top: 25px;
-	  background-color: rgba(40, 100, 100, 0.75);
 	  text-align: left;
-	  font-family: Garamond, Georgia, serif;
 	  font-size: 1.0em;
-	  color: rgb(240, 240, 235);
 	  line-height: 1.2;
 	}
 	div.footer {
 	  width: 800px;
 	  margin: auto;
 	  margin-top: 25px;
+	  margin-bottom: 25px;
 	  background-color: rgba(40, 100, 100, 0.75);
 	  text-align: center;
 	  font-family: Garamond, Georgia, serif;
-	  font-size: 0.80em;
+	  font-size: 0.90em;
 	  color: rgb(240, 240, 235);
 	  line-height: 1.5;
 	}
