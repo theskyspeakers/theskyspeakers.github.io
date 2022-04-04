@@ -30,24 +30,20 @@
 	  margin-left: auto;
 	  margin-right: auto;
 	}
-	img.tile1 {
-	  position: fixed; 
-	  top: 0px; 
-	  right: 0px; 
-	  width: 48px;
-	  height: 48px;
-	}
-	img.tile2 {
-	  position: fixed; 
-	  top: 0px; 
-	  right: 48px; 
-	  width: 48px;
-	  height: 48px;
+	img.tile {
+	  max-width: 50px;
+	  max-height: 50px;
 	}
 	div {
 	  background-color: rgba(40, 100, 100, 0.85); 
 	  color: rgb (240, 240, 235); 
 	  font-family: Garamond, Georgia, serif;
+	}
+	div.soc {
+	  background-color: transparent; 
+	  position: fixed; 
+	  right: 0px; 
+	  top: 0px; 
 	}
 	div.nav {
 	  margin: 75px 0px 50px 0px; 
