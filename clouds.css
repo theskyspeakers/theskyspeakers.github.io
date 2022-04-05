@@ -54,6 +54,30 @@
 	  letter-spacing: 15px;
 	  word-spacing: -10px;
 	}
+	table, tr {
+	  border-collapse: collapse;
+	  border: 3px solid #2a2d2b; 
+	}
+	table {
+	  width: 700px;
+	  margin: auto;
+	}
+	th {
+	  background-color: #788272; 
+	  color: #2a2d2b; 
+	  padding: 12px;
+	  text-transform: capitalize;
+	  text-align: left; 
+	  font-size: 1.2em;
+	  letter-spacing: 10px;
+	  word-spacing: 10px;
+	}
+	td:hover {
+	  border: 3px solid #78827d;
+	}
+	td {
+	  padding: 12px 12px 12px 17px; 
+	}
 	div.feat {
 	  width: 700px; 
 	  margin: auto; 	
