@@ -107,3 +107,74 @@
 	  color: rgb(240, 240, 235);
 	  line-height: 1.5;
 	}
+	  background-color: rgba(40, 100, 100, 0.85); 
+	  color: rgb (240, 240, 235); 
+	  font-family: Garamond, Georgia, serif;
+	}
+	div.soc {
+	  background-color: transparent; 
+	  position: fixed; 
+	  right: 0px; 
+	  top: 0px; 
+	}
+	div.nav {
+	  margin: 75px 0px 50px 0px; 
+	  padding: 5px;
+	  text-align: center;
+	  text-transform: uppercase;
+	  font-size: 1.05em;
+	  letter-spacing: 15px;
+	  word-spacing: -10px;
+	}
+	table, tr {
+	  border-collapse: collapse;
+	  border: 3px solid #2a2d2b; 
+	}
+	table {
+	  width: 700px;
+	  margin: auto;
+	}
+	th {
+	  background-color: #788272; 
+	  color: #2a2d2b; 
+	  padding: 12px;
+	  text-transform: capitalize;
+	  text-align: left; 
+	  font-size: 1.2em;
+	  letter-spacing: 10px;
+	  word-spacing: 10px;
+	}
+	td:hover {
+	  border: 3px solid #78827d;
+	}
+	td {
+	  padding: 12px 12px 12px 17px; 
+	}
+	div.feat {
+	  width: 700px; 
+	  margin: auto; 	
+	  padding: 25px 50px 25px 50px; 
+	  font-size: 1.2em; 
+	  line-height: 1.2; 
+	}
+	div.blurb {
+	  width: 600px;
+	  margin: auto;
+	  padding: 25px 100px 25px 100px;
+	  margin-top: 25px;
+	  text-align: left;
+	  font-size: 1.0em;
+	  line-height: 1.2;
+	}
+	div.footer {
+	  width: 800px;
+	  margin: auto;
+	  margin-top: 25px;
+	  margin-bottom: 25px;
+	  background-color: rgba(40, 100, 100, 0.75);
+	  text-align: center;
+	  font-family: Garamond, Georgia, serif;
+	  font-size: 0.90em;
+	  color: rgb(240, 240, 235);
+	  line-height: 1.5;
+	}
